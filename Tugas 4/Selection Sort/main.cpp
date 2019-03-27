@@ -49,8 +49,8 @@ void printArray(int arr[], int size)
 
 // Driver program to test above functions
 int main()
-{
-    int arr[10000] ;
+{   cout<<"50000 Data";
+    int arr[50000] ;
     int n = sizeof(arr)/sizeof(arr[0]);
     membuatArray(arr,n);
 
